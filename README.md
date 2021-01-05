@@ -15,7 +15,7 @@ After everything, just click in create database and wait the database be generat
 
 In the new page, make sure the option with the VPC ID matches the VPC of your database - if you just have one database you'll probably just have one VPC and one Security Group Option. In the bottom of this page, there's some tabs: go to inbound and click edit it. In origin type select "My IP", type "MySQL/Aurora" and save.
 
-![img 9](https://github.com/Erick-Oliveira-ET/Connecting-AWS-RDS-MySQL-with-Typeorm-Guide/blob/main/images/9.png)
+![img 9](https://github.com/Erick-Oliveira-ET/Connecting-AWS-RDS-MySQL-with-Typeorm-Guide/blob/main/images/9.jpg)
 
 Now, important part. TypeORM needs a config for MySQL to work named "database". This field is refering to the schema inside the database created. However, there's nothing inside the database. To fix that problem, you open the MySQL WorkBench, connect a new database using the host, username, password and port and when created the connection, create a new schema and use the name of that schema on the TypeORM's database field. 
 
