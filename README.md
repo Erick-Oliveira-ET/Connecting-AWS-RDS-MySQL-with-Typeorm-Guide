@@ -14,8 +14,6 @@ First, it's necessary to create the database. For that, access the [rds home pag
 
 After everything, just click in create database and wait the database be generated. After that, go to the database and, in the connectivity & security, go to the VPC Security groups and click the option that appears. 
 
-![img 8](https://github.com/Erick-Oliveira-ET/Connecting-AWS-RDS-MySQL-with-Typeorm-Guide/blob/main/images/8.png)
-
 In the new page, make sure the option with the VPC ID matches the VPC of your database - if you just have one database you'll probably just have one VPC and one Security Group Option. In the bottom of this page, there's some tabs: go to inbound and click edit it. In origin type select "My IP", type "MySQL/Aurora" and save.
 
 ![img 9](https://github.com/Erick-Oliveira-ET/Connecting-AWS-RDS-MySQL-with-Typeorm-Guide/blob/main/images/9.png)
