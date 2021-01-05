@@ -10,7 +10,6 @@ First, it's necessary to create the database. For that, access the [rds home pag
 ![img 5](https://github.com/Erick-Oliveira-ET/Connecting-AWS-RDS-MySQL-with-Typeorm-Guide/blob/main/images/5.png)
 ![img 6](https://github.com/Erick-Oliveira-ET/Connecting-AWS-RDS-MySQL-with-Typeorm-Guide/blob/main/images/6.png)
 ![img 7](https://github.com/Erick-Oliveira-ET/Connecting-AWS-RDS-MySQL-with-Typeorm-Guide/blob/main/images/7.png)
-![img 8](https://github.com/Erick-Oliveira-ET/Connecting-AWS-RDS-MySQL-with-Typeorm-Guide/blob/main/images/8.png)
 
 After everything, just click in create database and wait the database be generated. After that, go to the database and, in the connectivity & security, go to the VPC Security groups and click the option that appears. 
 
